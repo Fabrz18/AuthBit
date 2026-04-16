@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="FastLoginBukkit">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/FastLoginBukkit.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

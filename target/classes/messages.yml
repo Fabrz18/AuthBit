@@ -1,0 +1,36 @@
+# ========================================== #
+#              Mensajes AuthBit              #
+# ========================================== #
+
+mensajes:
+  prefix: "&8[&6AuthBit&8] "
+
+  # Player events Messages
+  player-join: "&8[&a+&8] &f"
+  player-leave: "&8[&4-&8] &f"
+
+  # Login Messages
+  login-exitoso: "&a¡Sesión iniciada!"
+  error-login: "&cError: Uso correcto /login <pass>"
+  continued-login-ip: "&aTu sesión ha sido reanudada automáticamente por seguridad de IP."
+  login-message: "&cUsa: /login <pass>"
+
+  # Register Messages
+  ya-registrado: "&cYa estás registrado."
+  no-registrado: "&cNo estás registrado. Usa /register <pass> <pass>"
+  error-registro: "&cError: Uso correcto /register <pass> <pass>"
+  registro-exitoso: "&a¡Registro exitoso!"
+  register-message: "&cUsa: /register <pass> <pass>"
+
+  # Unregister Messages
+  error-unregister: "&cError: /unregister <nick>"
+  account-reset: "&eTu cuenta ha sido reseteada por un administrador."
+  # Other
+  contrasena-incorrecta: "&cContraseña incorrecta."
+  inicia-sesion-primero: "&cInicia sesión primero."
+  sin-permiso: "&cNo tienes permiso para ejecutar este comando."
+  user-invalid: "&cEl usuario no existe."
+
+  # Premium messages
+  already-premium: "&cYa eres premium."
+  premium-activated: "&aModo premium activado. Vuelve a entrar al servidor."

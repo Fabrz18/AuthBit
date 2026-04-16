@@ -1,0 +1,22 @@
+name: AuthBit
+version: '$version'
+
+main: com.bitraid.authBit.AuthBit
+api-version: '1.21.11'
+load: POSTWORLD
+depend: [ProtocolLib, FastLogin]
+
+commands:
+  premium:
+    description: Activa el login automatico para cuentas premium.
+    usage: /premium
+    aliases: [prem]
+  register:
+    description: Registra una nueva cuenta.
+    usage: /register <pass> <pass>
+  login:
+    description: Inicia sesion en tu cuenta.
+    usage: /login <pass>
+  unregister:
+    description: Elimina el registro y modo premium de un jugador.
+    usage: /unregister <nick>
